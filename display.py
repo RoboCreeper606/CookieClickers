@@ -37,6 +37,6 @@ class Display:
                             E.clicked()
             else:
                 E.pressed = False
-            for T in self.__text_list:
-                self.__display.blit(T.getSprite(), T.getXY())
+        for T in self.__text_list:
+            self.__display.blit(T.getSprite(), T.getXY())
         pygame.display.flip()
