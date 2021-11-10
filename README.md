@@ -6,8 +6,6 @@
 
 </ul>
 
-The code is written in C#.
+The code is written in Python.
 
-The entrance point is "Program.cs"
-
-A build can be found at "bin/Debug/ConsoleApplication1.exe"
+The entrance point is "main.py"
